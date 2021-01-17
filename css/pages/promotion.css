@@ -1,0 +1,4 @@
+.promotion__title {
+    font-size: calc(32px + 18 * ((100vw - 320px) / (1920 - 320)));
+}
+/* promotion.css */
