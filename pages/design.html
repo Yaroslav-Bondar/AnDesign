@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дизайн</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/common_style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages/pages_common.css">
+    <link rel="stylesheet" href="../css/pages/design.css">
+</head>
+<body>
+    <!-- button back to top version_1 s -->
+    <div class="buttotop buttotop-v1">
+        <div class="buttotop__item buttotop-v1__item">
+            <i class="buttotop__arrow buttotop-v1__arrow"></i>
+        </div>
+    </div>
+    <!-- button back to top version_1 f -->
+    <!-- button back to top version_2 s -->
+    <div class="buttotop buttotop-v2">
+        <div class="buttotop__item buttotop-v2__item">
+            <i class="buttotop__arrow buttotop-v2__arrow"></i>
+        </div>
+    </div>
+    <!-- button back to top version_2 f -->
+    <!-- menu burger begin -->
+    <nav class="menu-burger">
+        <a href="#" class="menu-burger__link">Услуги</a>
+        <a href="#" class="menu-burger__link">цены</a>
+        <a href="#" class="menu-burger__link">портфолио</a>
+        <a href="#" class="menu-burger__link">Продвижение</a>
+        <a href="#" class="menu-burger__link">еще что то</a>
+        <a href="#" class="menu-burger__link">еще</a>
+        <a href="#" class="menu-burger__link">и еще</a>
+        <a href="#" class="menu-burger__link">контакты</a>
+    </nav>
+    <!-- menu burger end -->
+    <div class="modal call__modal">
+        <div class="modal-frame">
+            <div class="modal__close">
+                <div class="modal__close-line"></div>
+                <div class="modal__close-line"></div>
+            </div>
+            <div class="modal__title">
+                Заказать звонок
+            </div>
+            <div class="modal__subtitle">
+                Оставьте номер телефона и я перезвоню Вам <b>в течении 30 минут</b> и подробно <b>отвечу</b> на все вопросы по созданию сайта
+            </div>
+            <form id="modal__form" onsubmit="return false">
+                <div class="modal__tel">
+                    <input type="tel" placeholder="+380-xx-xxx-xx-xx" pattern="[+]{1}[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" name="modal_tel" class="modal__tel">
+                </div>
+                <input type="submit" value="заказать звонок" form="modal__form" class="modal__submit button-1">
+            </form>    
+        </div>
+    </div> 
+    <main class="main main__design">
+        <div class="design__header-conteiner header-conteiner sites__header-conteiner">
+            <div class="wrapper">
+                <header class="start__header">
+                    <div class="start__menu-block">
+                        <div class="start__logo logo">
+                            <a href="#" class="start__logo-link logo__link">
+                                <div class="start__logo-item logo-item">
+                                    <div class="start__logo-text1 logo-text">an</div>
+                                    <div class="start__logo-text2 logo-text">design</div>
+                                </div>
+                                <div class="start__slogan slogan">
+                                    <div class="start__slogan-item slogan-item">
+                                        web studio
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <nav class="start__nav menu">
+                            <ul>
+                                <li><a href="#">услуги</a></li>
+                                <li><a href="#">цены</a></li>
+                                <li><a href="#">портфолио</a></li>
+                                <li><a href="#">контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="start__phone">
+                            <div class="start__phone-icon"><img src="../img/start/phone_icon.png" alt=""></div>
+                            <div class="start__phone-item">+373-69910767</div>
+                        </div>
+                        <div class="start__order-call">
+                            <a href="#" class="start__call-item design__call-item">заказать звонок</a>
+                        </div>
+                        <div class="burger start__burger">
+                            <div class="burger__line start__burgerline"></div>
+                            <div class="burger__line start__burgerline"></div>
+                            <div class="burger__line start__burgerline"></div>
+                    </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="design__body sites">
+            <div class="wrapper">
+                <div class="sites__conteiner">
+                    <h1 class="design__title column__title sites__title">
+                        Дизайн
+                    </h1>
+                    <div class="design__description sites__description">
+                        <div class="design__text sites__text column__subtitle">
+                            Корпоративный стиль включает логотип, шрифт, цвет, изображения и прочие элементы, с помощью которых бренд подчеркивает свою уникальность и привлекает внимание потребителей.
+                        </div>
+                        <div class="design__pic sites__pic">
+                            <video class="sites__pic-item design__pic-item" controls poster="../img/sites/design/01.png" preload="none">
+                                <!-- <source src="#" type=""> -->
+                            </video>
+                        </div>
+                    </div>
+                    <form action="#" class="sites__form design__form" method="POST">
+                        <div class="sites__form-title column3__title">Заказать разработку корпоративного сайта
+                        </div>
+                        <div class="sites__form-elements form__font">  
+                            <input class="sites__tel" value="Телефон*" type="tel" name="design-tel">
+                            <input type="email" value="E-mail" class="sites__email design__email" name="design-email">
+                            <input class="sites__button button-1" type="submit" value="заказать">  
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>  
+    <footer class="footer footer__design">
+        <div class="wrapper">
+            <div class="footer__conteiner">
+                <div class="footer__logo logo">
+                    <a href="#" class="footer__logo-link logo__link">
+                        <div class="footer__logo-item logo-item">
+                            <div class="footer__logo-text1 logo-text start__logo-text1">an</div>
+                            <div class="footer__logo-text2 logo-text start__logo-text2">design</div>
+                        </div>
+                        <div class="footer__slogan slogan">
+                            <div class="footer__slogan-item slogan-item start__slogan-item">
+                                web studio
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <nav class="footer__nav menu">
+                    <ul>
+                        <li><a href="#">услуги</a></li>
+                        <li><a href="#">цены</a></li>
+                        <li><a href="#">портфолио</a></li>
+                        <li><a href="#">контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link">
+                        <img src="../img/footer/instagram.png" alt="instagram_logo" class="footer__social-img">
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <img src="../img/footer/facebook.png" alt="facebook_logo" class="footer__social-img">
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <img src="../img/footer/telegram.png" alt="telegram_logo" class="footer__social-img">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="footer__copyright-text">©2020 AnDesign Создание сайтов для бизнеса</div>
+                <div class="webcoder footer__copyright-text">Верстка сайта - <a href="#" class="webcoder__link footer__copyright-text">Ярослав Бондарь</a></div>
+            </div>
+        </div>
+    </footer>
+<script src="../js/commonJs/commonJs.js"></script>    
+<script src="../js/commonJs/commonBurger.js"></script>
+<script src="../js/commonJs/buttonsToTop.js"></script>
+<script src="../js/pagesJs/commonPagesJs/commonPagesBurger.js"></script>
+<script src="../js/commonJs/orderCall.js"></script>
+</body>
+</html>
